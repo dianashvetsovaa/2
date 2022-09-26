@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list>li
+        {
+            color:aliceblue;
+            list-style-type:circle;
+        }
+        .menu.horizontal>li.menu-item
+        {
+            display: inline-block;
+            list-style-type: none;
+        }
+        .menu.horizontal>li.menu-item>a
+        {
+            background-color: blueviolet;
+            color: aliceblue;
+            padding: 10px 5px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        .menu.horizontal>li.menu-item>a:hover
+        {
+            background-color: aliceblue;
+            color: blue;
+        }
+        .menu.vertical>li.menu-item
+        {
+            display:table;
+            list-style-type: none;
+            margin-top: 20px;
+            margin-bottom: 5px;
+
+        }
+        .menu.vertical>li.menu-item>a
+        {
+            background-color: rgb(89, 194, 115);
+            color: aliceblue;
+            padding: 10px 5px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        .menu.vertical>li.menu-item>a:hover
+        {
+            background-color: aliceblue;
+            color: rgb(0, 247, 255);
+        }
+        </style>
+</head>
+<body>
+    <ul class="menu horizontal">
+        <li class="menu-item"><a href="#">My Hero Academia</a></li>
+        <li class="menu-item"><a href="#">Haikyuu</a></li>
+        <li class="menu-item"><a href="#">Classroom of the Elite</a></li>
+        <li class="menu-item"><a href="#">Demon Slayer</a></li>
+        <li class="menu-item"><a href="#">Neverland</a></li>
+      </ul> 
+      <ul class="menu vertical">
+        <li class="menu-item"><a href="#">Owari no Seraph</a></li>
+        <li class="menu-item"><a href="#">Vanitas no Carte</a></li>
+        <li class="menu-item"><a href="#">Takt Op.Destiny</a></li>
+        <li class="menu-item"><a href="#">Tokyo Revengers</a></li>
+        <li class="menu-item"><a href="#">Jujutsu Kaisen</a></li>
+      </ul> 
+</body>
+</html>
